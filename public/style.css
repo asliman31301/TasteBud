@@ -1,0 +1,41 @@
+/* html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #20262e;
+    overflow: hidden;
+} */
+
+.phoneNumber {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mapLink {
+    color: white;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.phoneLink {
+    color: white;
+    font-size: 18px;
+}
+
+a.phoneLink,
+a.mapLink {
+    text-decoration: underline;
+}
+
+a.phoneLink:visited,
+a.mapLink:visited {
+    text-decoration: underline;
+    color: white;
+}
+
+.liked-link {
+    color: black !important;
+}
